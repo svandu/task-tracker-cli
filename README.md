@@ -19,7 +19,7 @@ Task tracker is a project used to track and manage your tasks. A simple command 
 
 ## Technology
 
-- Node.js(Javascript)
+- Node.js (JavaScript)
 
 ## Not important right now:
 
