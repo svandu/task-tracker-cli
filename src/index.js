@@ -1,6 +1,6 @@
-import chalk from "chalk";
 import { Command } from "commander";
 import { init } from "./commands/init.js";
+import { add } from "./commands/add.js";
 
 function exec() {
   // console.log(chalk.cyan("Welcome to Task Tracker CLI:::"));
@@ -12,6 +12,7 @@ function exec() {
     .version("2.0.0", "-v", "--version", "Display task-cli version");
 
   program.addCommand(init);
+  program.addCommand(add);
   program.parse();
 }
 
