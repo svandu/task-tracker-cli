@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "description": "this is the task",
-    "status": "not started"
+    "description": "this is the second updated one",
+    "status": "in progress"
   }
 ]
