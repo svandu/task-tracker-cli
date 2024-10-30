@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "description": "This is the first task",
+    "status": "not started"
+  },
+  {
+    "id": 2,
+    "description": "this is the second task",
+    "status": "in progress"
+  },
+  {
+    "id": 3,
+    "description": "this is the third task",
+    "status": "completed"
+  }
+]

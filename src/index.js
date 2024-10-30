@@ -3,6 +3,7 @@ import { init } from "./commands/init.js";
 import { add } from "./commands/add.js";
 import { update } from "./commands/update.js";
 import { deleteTask } from "./commands/delete.js";
+import { list } from "./commands/lists.js";
 
 function exec() {
   // console.log(chalk.cyan("Welcome to Task Tracker CLI:::"));
@@ -17,6 +18,7 @@ function exec() {
   program.addCommand(add);
   program.addCommand(update);
   program.addCommand(deleteTask);
+  program.addCommand(list);
   program.parse();
 }
 

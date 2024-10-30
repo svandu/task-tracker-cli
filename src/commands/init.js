@@ -21,7 +21,7 @@ export const init = new Command()
 
       fs.writeFileSync(taskFileName, JSON.stringify({}));
 
-      const config = {taskFileName};
+      const config = { taskFileName };
 
       //save the filename to config.json
       fs.writeFileSync("config.json", JSON.stringify(config, null, 2));
@@ -31,6 +31,5 @@ export const init = new Command()
         `${chalk.green(`Your file ${result}.json is successfully created.`)}`
       );
       console.log("\n");
-      
     }
   });

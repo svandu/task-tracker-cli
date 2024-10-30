@@ -37,8 +37,8 @@ export const add = new Command()
         const data = fs.readFileSync(taskFileName, "utf-8");
         try {
           tasks = JSON.parse(data);
-          
-          if(!Array.isArray(tasks)) {
+
+          if (!Array.isArray(tasks)) {
             tasks = [];
           }
         } catch (error) {
@@ -46,7 +46,7 @@ export const add = new Command()
           tasks = [];
         }
       }
-      
+
       // Create a new task
       const newTask = {
         id: tasks.length + 1,
