@@ -52,6 +52,8 @@ export const add = new Command()
         id: tasks.length + 1,
         description: taskDescription,
         status: "not started",
+        createdAt: new Date(),
+        updatedAt: new Date(),
       };
 
       // Add the new task to the list
